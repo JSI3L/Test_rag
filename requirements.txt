@@ -1,4 +1,127 @@
+# ── Web / API ──────────────────────────────────────────────
+fastapi==0.115.5
+starlette==0.41.3
+uvicorn==0.32.1
+httptools==0.7.1
+watchfiles==1.1.1
+websockets==16.0
+python-multipart==0.0.22
+
+# ── HTTP clients ────────────────────────────────────────────
+httpx==0.28.1
+httpx-sse==0.4.3
+httpcore==1.0.9
+h11==0.16.0
+aiohttp==3.13.2
+aiohappyeyeballs==2.6.1
+aiosignal==1.4.0
+frozenlist==1.8.0
+multidict==6.7.0
+yarl==1.22.0
+propcache==0.4.1
+requests==2.32.5
+requests-toolbelt==1.0.0
+urllib3==2.6.2
+certifi==2025.11.12
+charset-normalizer==3.4.4
+idna==3.11
+
+# ── LangChain 1.x (all must match the same major version) ──
+langchain==1.2.12
+langchain-classic==1.0.3
+langchain-community==0.4.1
+langchain-core==1.2.19
+langchain-openai==1.1.10
+langchain-text-splitters==1.1.1
+langsmith==0.7.7
+
+# ── OpenAI ──────────────────────────────────────────────────
+openai==1.109.1
+tiktoken==0.12.0
+
+# ── Pydantic (py3.14-compatible) ────────────────────────────
+pydantic>=2.11.0
+pydantic-settings>=2.13.1
+pydantic_core>=2.33.0
+annotated-types==0.7.0
+
+# ── Data / ML ───────────────────────────────────────────────
+numpy==2.3.5
+pandas==2.3.3
+pyarrow==22.0.0
+datasets==4.4.2
+transformers==4.57.3
+tokenizers==0.22.1
+safetensors==0.7.0
+peft==0.18.0
 accelerate==1.12.0
+huggingface-hub==0.36.0
+torch==2.9.1
+sentencepiece==0.2.1
+
+# ── Scientific ──────────────────────────────────────────────
+sympy==1.14.0
+mpmath==1.3.0
+networkx==3.6.1
+
+# ── Database / storage ──────────────────────────────────────
+SQLAlchemy==2.0.47
+greenlet==3.3.2
+
+# ── Serialization / data formats ────────────────────────────
+orjson==3.11.7
+PyYAML==6.0.3
+protobuf==4.25.3
+pytz==2025.2
+tzdata==2025.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+xxhash==3.6.0
+zstandard==0.25.0
+
+# ── Async / concurrency ─────────────────────────────────────
+anyio==4.12.0
+sniffio==1.3.1
+
+# ── Utilities ───────────────────────────────────────────────
+click==8.3.1
+colorama==0.4.6
+tqdm==4.67.1
+psutil==7.1.3
+filelock==3.20.1
+fsspec==2025.10.0
+packaging==25.0
+regex==2025.11.3
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+python-dotenv==1.0.1
+distro==1.9.0
+dill==0.4.0
+multiprocess==0.70.18
+setuptools==80.9.0
+bcrypt==5.0.0
+uuid_utils==0.14.1
+
+# ── LangChain internals ─────────────────────────────────────
+dataclasses-json==0.6.7
+marshmallow==3.26.2
+mypy_extensions==1.1.0
+typing-inspect==0.9.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+jsonpatch==1.33
+jsonpointer==3.0.0
+tenacity==9.1.4
+jiter==0.13.0
+
+# ── Testing ─────────────────────────────────────────────────
+pytest==9.0.2
+pluggy==1.6.0
+iniconfig==2.3.0
+
+# ── Other ───────────────────────────────────────────────────
+Pygments==2.19.2
+attrs==25.4.0accelerate==1.12.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.13.2
 aiosignal==1.4.0
