@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.agents import create_agent
@@ -7,6 +8,13 @@ from langchain.tools import tool
 from embeddings import vector_store
  
 app = FastAPI(title="QA Agent API")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
  
 system_prompt = (
     "you are an question-answering assistant "
